@@ -15,7 +15,8 @@ public class StudentService {
     public Mono<Student> save(Student student) {
         return repository.save(student);
     }
-
+    //every element of data will show after 100 millis
+    //that is why using delayEments() function
     public Flux<Student> findAll() {
         return repository
                 .findAll()
