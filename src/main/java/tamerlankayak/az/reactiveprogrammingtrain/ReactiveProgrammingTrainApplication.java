@@ -14,6 +14,8 @@ public class ReactiveProgrammingTrainApplication {
         SpringApplication.run(ReactiveProgrammingTrainApplication.class, args);
     }
 
+    //here is starting insert 100 data to DB
+    //and subscribing method to flux with subscribe() function
     @Bean
     public CommandLineRunner commandLineRunner(StudentService studentService) {
 
