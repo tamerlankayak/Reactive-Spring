@@ -61,7 +61,7 @@ The API provides the following endpoints:
 
 ### Fetch Data
 
-- **Endpoint:** `/data`
+- **Endpoint:** `/api/v1/students`
 - **Method:** GET
 - **Description:** Fetches the data from a reactive data source.
 - **Example Request:**
