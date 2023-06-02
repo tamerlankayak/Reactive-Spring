@@ -72,7 +72,9 @@ The API provides the following endpoints:
   ```json
   {
     "id": 1,
-    "name": "Example Data"
+    "firstname": "Tamerlan",
+    "lastname":"Mustafayev",
+    "age":29
   }
   ```
 
